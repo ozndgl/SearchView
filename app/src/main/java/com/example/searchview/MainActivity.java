@@ -59,11 +59,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onFocusChange(View view, boolean b) {
 
-                if (b){
-                    listView.setVisibility(View.VISIBLE);
-                }else{
-                    listView.setVisibility(View.INVISIBLE);
-                }
+
             }
         });
         listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
